@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:windowBackground">
+
+    <!-- Imagen de preview -->
+    <ImageView
+        android:id="@+id/dialogImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:contentDescription="Preview del fondo"
+        android:background="?android:windowBackground" />
+
+    <!-- Texto descriptivo -->
+    <TextView
+        android:id="@+id/dialogText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Quieres aplicar este fondo?"
+        android:textColor="?android:textColor"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Botones (se gestionan desde el AlertDialog en MainActivity) -->
+    <!-- No es necesario definirlos aquí porque el AlertDialog ya añade "Aplicar" y "Cancelar" -->
+</LinearLayout>
