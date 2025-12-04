@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema principal en modo claro -->
+    <style name="WallifyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="android:textColor">@color/text_light</item>
+    </style>
+</resources>

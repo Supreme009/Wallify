@@ -1,0 +1,15 @@
+<resources>
+    <!-- Modo claro -->
+    <color name="bg_light">#EDE7F6</color>
+    <color name="text_light">#4A148C</color>
+    <color name="accent_light">#BBDEFB</color>
+
+    <!-- Modo oscuro -->
+    <color name="bg_dark">#1A1A2E</color>
+    <color name="text_dark">#FFFFFF</color>
+    <color name="accent_dark">#3F51B5</color>
+
+    <!-- Extras si los usás -->
+    <color name="background_dark">#121212</color>
+    <color name="content_dark">#1C1C1C</color>
+</resources>
